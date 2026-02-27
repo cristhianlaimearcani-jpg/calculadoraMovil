@@ -23,7 +23,7 @@
     <GridLayout
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:columnCount="10"
+            android:columnCount="9"
             android:rowCount="4"
             android:padding="4dp"
             app:layout_constraintTop_toBottomOf="@id/txtResultado"
@@ -33,6 +33,7 @@
             android:id="@+id/gridLayout">
 
         <!-- Fila 1 -->
+
         <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -69,7 +70,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="mc"
+                android:text="x²"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -84,22 +85,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="m+"
-                android:textColor="@android:color/white"
-                android:backgroundTint="#595959"
-                app:cornerRadius="20dp"
-                app:autoSizeTextType="uniform"
-                app:autoSizeMinTextSize="8sp"
-                app:autoSizeMaxTextSize="16sp"
-                app:autoSizeStepGranularity="1sp"/>
-
-        <com.google.android.material.button.MaterialButton
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="2dp"
-                android:text="x!"
+                android:text="x³"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -138,6 +124,7 @@
                 app:autoSizeMaxTextSize="16sp"
                 app:autoSizeStepGranularity="1sp"/>
 
+        <!-- Fila 2 -->
         <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -183,14 +170,13 @@
                 app:autoSizeMaxTextSize="16sp"
                 app:autoSizeStepGranularity="1sp"/>
 
-        <!-- Fila 2 -->
         <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="2nd"
+                android:text="√"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -205,7 +191,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="x²"
+                android:text="∛"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -220,14 +206,13 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="x³"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
                 app:autoSizeTextType="uniform"
                 app:autoSizeMinTextSize="8sp"
                 app:autoSizeMaxTextSize="16sp"
-                app:autoSizeStepGranularity="1sp"/>
+                app:autoSizeStepGranularity="1sp" android:text="eˣ"/>
 
         <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
@@ -235,22 +220,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="xʸ"
-                android:textColor="@android:color/white"
-                android:backgroundTint="#595959"
-                app:cornerRadius="20dp"
-                app:autoSizeTextType="uniform"
-                app:autoSizeMinTextSize="8sp"
-                app:autoSizeMaxTextSize="16sp"
-                app:autoSizeStepGranularity="1sp"/>
-
-        <com.google.android.material.button.MaterialButton
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="2dp"
-                android:text="eˣ"
+                android:text="ln"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -304,13 +274,14 @@
                 app:autoSizeMaxTextSize="16sp"
                 app:autoSizeStepGranularity="1sp"/>
 
+        <!-- Fila 3 -->
         <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="×"
+                android:text="x"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#FF9500"
                 app:cornerRadius="20dp"
@@ -334,44 +305,13 @@
                 app:autoSizeMaxTextSize="16sp"
                 app:autoSizeStepGranularity="1sp"/>
 
-        <!-- Fila 3 -->
         <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="sin"
-                android:textColor="@android:color/white"
-                android:backgroundTint="#595959"
-                app:cornerRadius="20dp"
-                app:autoSizeTextType="uniform"
-                app:autoSizeMinTextSize="8sp"
-                app:autoSizeMaxTextSize="16sp"
-                app:autoSizeStepGranularity="1sp"/>
-
-        <com.google.android.material.button.MaterialButton
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="2dp"
-                android:text="cos"
-                android:textColor="@android:color/white"
-                android:backgroundTint="#595959"
-                app:cornerRadius="20dp"
-                app:autoSizeTextType="uniform"
-                app:autoSizeMinTextSize="8sp"
-                app:autoSizeMaxTextSize="16sp"
-                app:autoSizeStepGranularity="1sp"/>
-
-        <com.google.android.material.button.MaterialButton
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="2dp"
-                android:text="tan"
+                android:text="rad"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -402,6 +342,21 @@
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
                 android:text="π"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#595959"
+                app:cornerRadius="20dp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeMaxTextSize="16sp"
+                app:autoSizeStepGranularity="1sp"/>
+
+        <com.google.android.material.button.MaterialButton
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_margin="2dp"
+                android:text="10ˣ"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -470,6 +425,7 @@
                 app:autoSizeMaxTextSize="16sp"
                 app:autoSizeStepGranularity="1sp"/>
 
+        <!-- Fila 4 -->
         <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
                 android:layout_height="0dp"
@@ -485,14 +441,13 @@
                 app:autoSizeMaxTextSize="16sp"
                 app:autoSizeStepGranularity="1sp"/>
 
-        <!-- Fila 4 -->
         <com.google.android.material.button.MaterialButton
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="√"
+                android:text="log₁₀"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -507,7 +462,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="∛"
+                android:text="sin"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -522,7 +477,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="log"
+                android:text="cos"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
@@ -537,22 +492,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:layout_margin="2dp"
-                android:text="ln"
-                android:textColor="@android:color/white"
-                android:backgroundTint="#595959"
-                app:cornerRadius="20dp"
-                app:autoSizeTextType="uniform"
-                app:autoSizeMinTextSize="8sp"
-                app:autoSizeMaxTextSize="16sp"
-                app:autoSizeStepGranularity="1sp"/>
-
-        <com.google.android.material.button.MaterialButton
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                android:layout_margin="2dp"
-                android:text="Rad"
+                android:text="tan"
                 android:textColor="@android:color/white"
                 android:backgroundTint="#595959"
                 app:cornerRadius="20dp"
